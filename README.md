@@ -4,6 +4,7 @@ Minecraft Skin Fetcher is a web tool that allows users to search and download Mi
 ![Preview](image.png)
 
 Try now!
-[Live Site URL]([https://example.com](https://minecraft-skin-fetcher.netlify.app/))
+[Live Site URL](https://minecraft-skin-fetcher.netlify.app)
+
 
 
