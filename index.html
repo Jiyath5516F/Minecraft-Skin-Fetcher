@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Minecraft Skin Fetcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div>
+            <p>v0.0.1 | W.I.P</p>
+
+            <a href="https://github.com/Jiyath5516F/Minecraft-Skin-Fetcher">
+                <img src="https://img.shields.io/github/stars/Jiyath5516F/Minecraft-Skin-Fetcher?style=social" alt="GitHub stars">
+            </a>
+            
+        </div>
+        <h1>Minecraft Skin Fetcher</h1>
+        <div class="search-bar">
+            <input type="text" id="username" placeholder="Type User Name">
+            <button onclick="fetchSkin()">Find</button>
+        </div>
+        <div class="grid">
+            <div class="skin">
+                <img id="skinImage" alt="Minecraft Skin" style="display: none;">
+                <a id="downloadSkin" class="download-icon" href="#" style="display: none;" download="skin.png">
+                    <img src="download-icon.png" alt="Download Icon">
+                </a>
+            </div>
+            <div class="head">
+                <img id="skinAvatar" alt="Minecraft Skin" style="display: none;">
+                <a id="downloadAvatar" class="download-icon" href="#" style="display: none;" download="avatar.png">
+                    <img src="download-icon.png" alt="Download Icon">
+                </a>
+            </div>
+            <div class="head-3d">
+                <img id="IsometricHead" alt="Minecraft Skin" style="display: none;">
+                <a id="downloadIsometricHead" class="download-icon" href="#" style="display: none;" download="isometric-head.png">
+                    <img src="download-icon.png" alt="Download Icon">
+                </a>
+            </div>
+            <div class="full-body">
+                <img id="skinBody" alt="Minecraft Skin" style="display: none;">
+                <a id="downloadBody" class="download-icon" href="#" style="display: none;" download="body.png">
+                    <img src="download-icon.png" alt="Download Icon">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="errorPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
